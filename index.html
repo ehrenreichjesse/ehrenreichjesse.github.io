@@ -1,123 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Engineering & Music Portfolio</title>
+    <title>WELCOME TO MY HOMEPAGE</title>
     <style>
+        /* The "Old School" Design Language */
         body {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            background-color: #fafafa;
-            color: #222;
+            background-color: #000080; /* Classic Navy Blue */
+            color: #ffffff;
+            font-family: "Times New Roman", Times, serif;
+            margin: 20px;
+        }
+
+        .main-box {
+            background-color: #c0c0c0; /* Classic Windows 95 Grey */
+            color: #000000;
+            border: 4px ridge #ffffff;
+            padding: 15px;
+            max-width: 800px;
+            margin: 0 auto;
         }
 
         header {
-            background: #1a1a1a;
-            color: #fff;
-            padding: 4rem 1rem;
             text-align: center;
+            border-bottom: 2px dashed #000;
+            margin-bottom: 20px;
         }
 
-        .container {
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 0 20px;
+        h1 {
+            margin-bottom: 0;
+            text-transform: uppercase;
+        }
+
+        .marquee-effect {
+            background: #ffff00;
+            color: #ff0000;
+            font-weight: bold;
+            padding: 5px;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        section {
+            border: 2px inset #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #e0e0e0;
         }
 
         h2 {
-            border-left: 5px solid #007bff;
-            padding-left: 15px;
-            margin-top: 2rem;
+            background-color: #000080;
+            color: white;
+            padding: 5px;
+            margin-top: 0;
         }
 
-        /* Engineering Grid */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .card {
+        /* Engineering Project List */
+        .project-item {
+            border: 1px solid #000;
+            margin-bottom: 10px;
+            padding: 10px;
             background: #fff;
-            border: 1px solid #ddd;
-            padding: 1.5rem;
-            border-radius: 8px;
-            transition: transform 0.2s;
         }
 
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-
-        /* Music Section */
-        .music-player {
-            background: #333;
-            color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 10px;
-            text-align: center;
+        a {
+            color: #0000ee;
+            font-weight: bold;
         }
 
         footer {
             text-align: center;
-            padding: 3rem;
-            background: #f1f1f1;
-            margin-top: 4rem;
+            font-size: 0.8rem;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>[Your Name]</h1>
-        <p>Future Engineer & Music Creator</p>
-    </header>
+    <div class="main-box">
+        <header>
+            <h1>*** MY PORTFOLIO ***</h1>
+            <p>ESTABLISHED 2026 - BEST VIEWED IN NETSCAPE NAVIGATOR</p>
+        </header>
 
-    <div class="container">
-        
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a student/engineer currently exploring the intersection of technical design and music. This website is my primary project where I document my progress in coding and engineering.</p>
-        </section>
+        <div class="marquee-effect">
+            Welcome to my Engineering and Music Hub! Updates coming soon!
+        </div>
 
-        <section id="engineering">
-            <h2>Engineering Projects</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>GitHub Pages Website</h3>
-                    <p>Designed and deployed a responsive portfolio using HTML and CSS to host my projects.</p>
-                </div>
-                <div class="card">
-                    <h3>Project Two</h3>
-                    <p>Brief description of an engineering project (e.g., Robotics, CAD design, or Circuitry).</p>
-                </div>
+        <section>
+            <h2>PROJECTS_LOG</h2>
+            <div class="project-item">
+                <strong>> PROJECT_01:</strong> This GitHub Page<br>
+                <strong>> STATUS:</strong> ACTIVE<br>
+                <p>Learning the fundamentals of web architecture and HTML/CSS deployment.</p>
+            </div>
+            <div class="project-item">
+                <strong>> PROJECT_02:</strong> [Future Engineering Build]<br>
+                <strong>> STATUS:</strong> PENDING...
             </div>
         </section>
 
-        <section id="music">
-            <h2>Music</h2>
-            <p>Listen to my latest tracks and experiments:</p>
-            <div class="music-player">
-                <p>🎵 <strong>Music Integration Tip:</strong></p>
-                <p>If you use SoundCloud or Spotify, you can paste their "Embed" code here to show a playable widget!</p>
-            </div>
+        <section>
+            <h2>AUDIO_FILES</h2>
+            <p>Click below to hear my latest compositions:</p>
+            <ul>
+                <li><a href="#">Track_01.mp3</a> (Placeholder)</li>
+                <li><a href="#">Rough_Mix_V2.wav</a> (Placeholder)</li>
+            </ul>
         </section>
 
-        <section id="contact">
-            <h2>Let's Connect</h2>
-            <p>Email: you@example.com</p>
+        <section>
+            <h2>BIO_DATA</h2>
+            <p>I am an engineer and musician building things in the physical and digital worlds.</p>
+            <p>Email me: <a href="mailto:yourname@example.com">Send Mail</a></p>
         </section>
 
+        <footer>
+            <hr>
+            <p>Site visitor count: 000001</p>
+            <p>Created by: YOU</p>
+        </footer>
     </div>
-
-    <footer>
-        <p>&copy; 2026 | Built with HTML & CSS</p>
-    </footer>
 
 </body>
 </html>
